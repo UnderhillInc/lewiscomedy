@@ -1,67 +1,28 @@
 /*
-==========================================
-HOME PAGE INITIALISATION
+====================================================
 
-Maintenance:
-
-Update content through config.js
-
-No HTML changes required.
-
-==========================================
-*/
-
-document.getElementById("siteTitle").textContent =
-    CONFIG.siteTitle;
-
-document.getElementById("tagline").textContent =
-    CONFIG.tagline;
-
-/*
-==========================================
-FEATURED VIDEO
-
-Replace youtubeId in config.js
-
-==========================================
-*/
-
-document.getElementById("featuredVideo").innerHTML = `
-
-<iframe
-width="100%"
-height="600"
-src="https://www.youtube.com/embed/${CONFIG.featuredVideo.youtubeId}"
-title="Featured Video"
-allowfullscreen>
-</iframe>
-
-`;
-
-/*
-==========================================
 SOCIAL LINKS
 
 Update URLs in config.js
 
-==========================================
+====================================================
 */
 
 document.getElementById("socialLinks").innerHTML = `
 
-<a class="btn" href="${CONFIG.socials.youtube}">
+<a href="${CONFIG.socials.youtube}" class="btn">
 YouTube
 </a>
 
-<a class="btn" href="${CONFIG.socials.instagram}">
+<a href="${CONFIG.socials.instagram}" class="btn">
 Instagram
 </a>
 
-<a class="btn" href="${CONFIG.socials.tiktok}">
+<a href="${CONFIG.socials.tiktok}" class="btn">
 TikTok
 </a>
 
-<a class="btn" href="${CONFIG.socials.x}">
+<a href="${CONFIG.socials.x}" class="btn">
 X
 </a>
 

@@ -1,50 +1,54 @@
 /*
-==========================================
-SITE CONFIGURATION
+====================================================
 
-Most future changes happen here.
+LEWIS BAKER WEBSITE CONFIG
 
-==========================================
+Most future updates happen here.
+
+====================================================
 */
 
 const CONFIG = {
 
-    siteTitle: "Lewis Baker",
+siteTitle: "Lewis Baker",
 
-    tagline: "Awkward, At The Best Of Times",
+tagline: "Awkward, At The Best Of Times",
 
-    featuredVideo: {
+socials: {
 
-        youtubeId: "VIDEO_ID"
+youtube: "#",
+instagram: "#",
+tiktok: "#",
+x: "#"
 
-    },
+},
 
-    socials: {
+googleForm: {
 
-        youtube: "#",
+embedUrl:
+"https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
 
-        instagram: "#",
-
-        tiktok: "#",
-
-        x: "#"
-
-    },
-
-    googleForm: {
-
-        embedUrl:
-            "https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true"
-
-    }
+}
 
 };
 
+/*
+====================================================
+
+VIDEO LIBRARY
+
+Add new videos here.
+
+No HTML edits required.
+
+====================================================
+*/
+
 const VIDEOS = [
 
-    {
-        title: "Placeholder Video",
-        youtubeId: "VIDEO_ID"
-    }
+{
+title: "Featured Upload",
+youtubeId: "XoLs0xAc1e8"
+}
 
 ];
