@@ -23,7 +23,7 @@ VIDEOS.forEach(video => {
         <h3>${video.title}</h3>
 
         <iframe
-        src="https://www.youtube.com/embed/${video.youtubeId}"
+        src="https://www.youtube.com/watch?v=7a7sZFl7Gdg&list=PLjZ5fn-714bd6gr04plb3fASrYHgXMqAl${video.youtubeId}"
         allowfullscreen>
         </iframe>
 
