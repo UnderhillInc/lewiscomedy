@@ -1,2 +1,14 @@
-# Lewis
-Lewis.com
+Launch-ready features:
+- Custom logo
+- Cyber-noir design system
+- 4 project slots
+- Lightbox/case-study templates
+- Google Forms contact integration
+- Instagram @underhilleffects
+- JS transitions using Swup/Barba (install required)
+- Scroll-triggered animations (GSAP/ScrollTrigger ready)
+- Blog system
+- Schema.org SEO
+- Image optimisation guidance
+- Sanity CMS starter
+- Netlify/Vercel deployment configs

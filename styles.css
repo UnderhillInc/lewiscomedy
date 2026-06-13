@@ -1,0 +1,5 @@
+:root{--gold:#D4A017;--amber:#E8861A;--black:#080608;}
+body{background:var(--black);color:#F0DCA0;font-family:Arial;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;}
+.card{border:1px solid var(--gold);padding:20px;background:#0E0B0F;}
+nav{display:flex;justify-content:space-between;}
